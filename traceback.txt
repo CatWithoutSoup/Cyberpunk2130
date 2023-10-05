@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 843, in script
+    K "Хах, хорошо."
+Exception: Sayer 'K' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 843, in script
+    K "Хах, хорошо."
+  File "D:\RENPY\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\RENPY\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'K' is not defined.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+Cyberpunk 2130 1.0
+Sat May 20 16:04:33 2023
